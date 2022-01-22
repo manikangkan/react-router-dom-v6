@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  font-family: Saira;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.primary-nav {
+  display: flex;
+  justify-content: end;
+  background: dodgerblue;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.primary-nav * {
+  color: #fff;
+  opacity: 0.8;
+  margin-right: 2rem;
+}
+
+.primary-nav .active {
+  opacity: initial;
+}
+
+button {
+  background: dodgerblue;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  margin: 2rem 1rem;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: initial;
+}
+
+button:active {
+  transform: scale(1.01);
+}
+
+input {
+  padding: 1rem 2rem;
+  border: 1px solid grey;
+}
+
+.nested-nav {
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.nested-nav * {
+  margin-right: 2rem;
+}
+
+.copyright {
+  text-align: center;
+}
